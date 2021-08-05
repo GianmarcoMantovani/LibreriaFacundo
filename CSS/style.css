@@ -1,0 +1,76 @@
+/* Ninguna de las imagenes son de mi propiedad, a continuación están los links de los autores
+
+Imágenes en Unsplash: https://unsplash.com/@xps
+Logo Dell: https://worldvectorlogo.com/logo/dell-1
+
+*/
+
+:root {
+    --dark: #16191C;
+    --dark-x: #1E2126; 
+    --dark: #16191c;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--black);
+}
+
+.text-light { color: var(--white) !important; }
+.bg-dark { background-color: var(--dark) !important; }
+.bg-dark-x { background-color: var(--dark); }
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 200;
+	background: #cc4b00; 
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.form-control:focus {
+    background-color: var(--dark-x);
+    outline: none;
+}
+
+.mejlibrofant {
+    background-image: url('mejlibrofant.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.mejlibrosterror {
+    background-image: url('mejlibrosterror.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+label{
+    font-weight: 600;
+}
+.custom-control{
+    font-weight: normal;
+}
+.dropdown-toggle{
+    padding-left: 10px;
+    border-radius: 0px !important;
+}
+.dropdown.dropdown-lg .dropdown-menu {
+    padding: 15px;
+}
+.input-group .form-control{
+    width: 100%;
+    border-radius: 0.25rem !important;
+}
+.dropdown.dropdown-lg .dropdown-menu{
+    min-width: 250px;
+}
+.dropdown-menu{
+    box-shadow: 1px 4px 8px -1px #110b0b;
+
+
+}
